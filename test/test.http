@@ -1,0 +1,15 @@
+###
+POST https://port4004-workspaces-ws-qthkt.us10.trial.applicationstudio.cloud.sap/OnztoteSRV/ZTOTECNFWCSTOSAPSet
+Content-Type: application/json
+
+{
+    "HUNumber": "T006",
+    "Scanner_Id": "SCN1",
+    "Transfer_Location_Update": "DROP",
+    "Expected_Weight": "10",
+    "Measured_Weight": "9.8",
+    "Diversion_Reason": "PTWY"
+}
+
+###
+GET https://port4004-workspaces-ws-qthkt.us10.trial.applicationstudio.cloud.sap/OnztoteSRV/ZTOTECNFWCSTOSAPSet
